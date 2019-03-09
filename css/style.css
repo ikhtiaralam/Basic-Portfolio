@@ -1,0 +1,114 @@
+#content {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+ 
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff; 
+}  
+
+#header{
+    color: #ffffff;
+    padding: 50px;
+    margin-top: 50px; 
+    margin-left: -50px;
+    margin-right: -65px;  
+    width: 960px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 15px;
+    width: 22%;
+    margin-bottom: 20px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top:-30px;
+  }
+  
+h2 {
+    color: #4aaaa5;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 0px;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 8px solid #4aaaa5;
+  }
+  
+#btn-group button {
+    background-color: transparent; 
+    color: black; 
+    padding: 15px 20px; 
+    cursor: pointer; 
+    float: right; 
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-right: 0 auto;
+  }
+  
+  img.profile {
+    float:left;
+    margin-right: 10px;
+  }
+ 
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+

@@ -112,3 +112,37 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: transparent;
+    border: transparent;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .imagecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .imagecentered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 50%
+  }
+
+  img.portfolio {
+      width: 200px;
+      height: 140px;
+  }
